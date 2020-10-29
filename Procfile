@@ -1,1 +1,1 @@
-web gunicorn app:static.json
+web: bin/boot
