@@ -31,7 +31,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "webpack": "webpack --mode=development --watch",
-    "postinstall": "webpack"
+    "postinstall": "webpack",
+    "start": "webpack --mode=production --watch"
   },
   "engines": {
     "node": "10.13.0",
@@ -39,15 +40,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ccoombsesmail/Fidget.git"
+    "url": "git+https://github.com/devashleyd/Fidget.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/ccoombsesmail/Fidget/issues"
+    "url": "https://github.com/devashleyd/Fidget/issues"
   },
-  "homepage": "https://github.com/ccoombsesmail/Fidget#readme",
+  "homepage": "https://github.com/devashleyd/Fidget#readme",
   "devDependencies": {
     "css-loader": "^3.5.3",
     "eslint": "^6.8.0",
